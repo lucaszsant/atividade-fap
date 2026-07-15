@@ -1,4 +1,4 @@
-# Aividade de Teste de Software
+# Atividade de Teste de Software
 
 ## 1. O que é testar software
    
