@@ -1,7 +1,7 @@
 #  Quadro Comparativo de prática de QA
 
 | Prática             | Como Funciona                                                | Vantagens                             | Desafios
-
+|---|---|---|---|
 | QA Tradicional      | Testes executados no final do ciclo de desenvolimento,       | Simplificado de processo; não exige   | Detecta defeitos
 |                     | a implementação das funcionalidades.                         | muitas ferramentas; facil de entender | tarde; alto custo de
 |                     |                                                              |                                       | correção;retrabalho;
