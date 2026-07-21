@@ -6,25 +6,25 @@
 |                     | a implementação das funcionalidades.                         | muitas ferramentas; facil de entender | tarde; alto custo de
 |                     |                                                              |                                       | correção;retrabalho;
 |                     |                                                              |                                       | prazos mais longos.
-                                                                                                       
+|---|---|---|---|                                                                                                       
 | Agile Testing       | Testes continuos e colaborativos durante todo o ciclo de     | Feedback rápido; maior qualidade de   | Requer mudança de 
 |                     | desenvolvimento ágil, integrados ás sprints.                 | alinhamento com a equipe; entrega     |cultura,comunicação
 |                     |                                                              | contínua.                             | constante,
 |                     |                                                              |                                       | planejamento;
 |                     |                                                              |                                       | detalhado.
-
+|---|---|---|---|
 | Automação de        | Uso de ferramentas para criar e executar testes              | Maior cobertura; rapidez na execução; | Custo inicial;
 | teste               | repetindo-os com rapídez.                                    | reduz erros humanos; ideal para       | manuntenção dos
 |                     |                                                              | regressaão.                           | scripts;necessidade
 |                     |                                                              |                                       | de profissionais 
 |                     |                                                              |                                       | capacitados.
-
+|---|---|---|---|
 | Shift Left          | Prática de mover os testes para as fases inciais do          | Detecta problemas cedo; reduz custo;  | Requer integração 
 |                     | desenvolvimento,junto a análise e design                     | melhora a qualidade desde o início    | entre times; nem
 |                     |                                                              |                                       | todos os defeitos
 |                     |                                                              |                                       | são encontrados
 |                     |                                                              |                                       | no inicio.
-
+|---|---|---|---|
 |DevSecTestOps        | Integra desenvolvimneto,segurança,testes e operações em      | Segurança desde o início; entrega     | Complexidade de
 |                     |um fluxo contínuo e automatizado.                             | rápida;colaboração;redução de risco.  | integração
 |                     |                                                              |                                       | ferramentas e 
