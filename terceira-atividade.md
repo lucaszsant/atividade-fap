@@ -6,7 +6,7 @@
 |                     | a implementação das funcionalidades.                         | muitas ferramentas; facil de entender | tarde; alto custo de
 |                     |                                                              |                                       | correção;retrabalho;
 |                     |                                                              |                                       | prazos mais longos.
-|                     |                                                              |                                       |    
+                                                                                                       
 | Agile Testing       | Testes continuos e colaborativos durante todo o ciclo de     | Feedback rápido; maior qualidade de   | Requer mudança de 
 |                     | desenvolvimento ágil, integrados ás sprints.                 | alinhamento com a equipe; entrega     |cultura,comunicação
 |                     |                                                              | contínua.                             | constante,
