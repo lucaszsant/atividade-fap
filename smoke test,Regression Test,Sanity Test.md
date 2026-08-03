@@ -8,7 +8,7 @@
 
 **ID**: SMK01
 
-**TÍTULO**:Validação e login com credenciais válidas
+**TÍTULO**:Validação do login com credenciais válidas
 
 **PRÉ CONDIÇÃO**: Usuário cadastrado no sistema
 
@@ -66,9 +66,97 @@
 
 **ID**: SMK05
 
-**TÍTULO**: Validação do acesso ao menu principal da conta após login
+**TÍTULO**: Validação de acesso à área de pagamentos
 
-**PRÉ-CONDIÇÃO**
+**PRÉ-CONDIÇÃO** Usuário autenticado no sistema
+
+**PASSOS**: Usuário estar na tela de login, informar e-mail e senha válidos, clicar no botão entrar, acessar ao menu principal, selecionar a opção pagamentos
+
+**RESULTADO ESPERADO**: A tela de pagamento é carregada com sucesso e está disponível para  utilização
+
+-------------------------------------------------------------------------------------------------------
+
+### Sanity test
+
+**1ºCASO**
+
+**ID**: SNT01
+
+**TÍTULO**: Validação da realização de  pagamento com sucesso
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema e  possui saldo suficiente para efetuar o pagamento
+
+**PASSOS**: acessar a area de pagamentos, efetuar o pagamento,confirmar a operação
+
+**RESULTADO ESPERADO**: O pagamento é realizado com sucesso e a confirmação da transação é exibida ao usuário
+
+------------------------------------------------------------------------------------------------------------
+
+**2ºCASO**
+
+**ID**: SNT02
+
+**TÍTULO** Validação do login após correção
+
+**PRÉ-CONDIÇÃO**: Usuário cadastrado no sistema com credenciais válidas
+
+**PASSOS**: Acessar a tela de login, informar e-mail e senha válidos, clicar no botão entrar. 
+
+**RESULTADO ESPERADO**: Usuário consegue realizar login e acessar a conta
+
+--------------------------------------------------------------------
+
+**3ºCASO**
+
+**ID**: SNT03
+
+**TÍTULO**: Validação da atualização do saldo após transferência
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema, possui saldo disponível e realizou uma transferência com sucesso
+
+**PASSOS**: acessar a tela inicial da conta, consultar saldo disponível após a transferência
+
+**RESULTADO ESPERADO**: O saldo da conta é atualizado corretamente após a realização da transferência.
+
+-----------------------------------------------------------------------------------------------
+
+**4ºCASO**
+
+**ID**:SNT04
+
+**TÍTULO**: Validação do recebimento de uma transferência com mensagem de confirmação
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema e possui uma conta ativa para recebimento
+
+**PASSOS**: Realizar uma transferência para a conta do usuário, acessar a conta após o recebimento, verificar a mensagem após a operação
+
+**RESULTADO ESPERADO**: O valor recebido é registrado corretamente na conta e uma mensagem de confirmação é exibida para o usuário.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+**5ºCASO**
+
+**ID**: SNT05
+
+**TÍTULO**: Validação da exibição do saldo após login
+
+**PRÉ-CONDIÇÃO**: Usuário cadastrado no sistema com saldo disponível.
+
+**PASSOS**: Realizar login no sistema, aguardar o carregamento da tela inicial, verificar o saldo exibido 
+
+**RESULTADO ESPERADO**: O saldo da conta é exibido após o  login
+
+-----------------------------------------------------------------------
+
+**test regression**
+
+**1ºCASO**
+
+**ID**:
+
+**TÍTULO**:
+
+**PRÉ-CONDIÇÃO**:
 
 **PASSOS**:
 
