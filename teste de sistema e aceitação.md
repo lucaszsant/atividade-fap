@@ -134,11 +134,15 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **Porque verifica se a funcionalidade de login funciona corretamente quando o usuário informa credenciais válidas e se o sistema permite o acesso à conta.**
 
+
 **Ponto de vista adotado:**
+
 
 **Visão do sistema, verificando o comportamento da aplicação durante o processo de autenticação.**
 
+
 **Tipo de validação realizada:**
+
 
 **Validação funcional do processo de login e acesso ao sistema.**
 
@@ -151,30 +155,43 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **Por que este é um teste de sistema?**
 
+
 **Porque valida se o sistema permite que o usuário realize uma operação de pagamento corretamente após acessar sua conta.**
+
 
 **Ponto de vista adotado:**
 
+
 **Visão do sistema, analisando se a funcionalidade de pagamento executa a operação esperada.**
 
+
 **Tipo de validação realizada:**
+
 
 **Validação funcional do fluxo de pagamento.**
 
 
+
 **id:Test03 - Validar login com senha inválida**
+
 
 **Classificação: Teste de Sistema**
 
+
 **Por que este é um teste de sistema?**
+
 
 **Porque verifica se o sistema identifica uma senha incorreta e apresenta uma resposta adequada ao usuário.**
 
+
 **Ponto de vista adotado:**
+
 
 **Visão do sistema, avaliando o tratamento de dados inválidos durante a autenticação.**
 
+
 **Tipo de validação realizada:**
+
 
 **Validação funcional das regras de autenticação e tratamento de erros.**
 
@@ -184,17 +201,24 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **id Test04 - Validar login com campo obrigatório não preenchido**
 
+
 **Classificação: Teste de Sistema**
+
 
 **Por que este é um teste de sistema?**
 
+
 **Porque verifica se o sistema realiza a validação dos campos obrigatórios antes de permitir o acesso.**
+
 
 **Ponto de vista adotado:**
 
+
 **Visão do sistema, avaliando as regras de validação dos dados inseridos.**
 
+
 **Tipo de validação realizada:**
+
 
 **Validação funcional dos campos obrigatórios e mensagens de erro.**
 
@@ -202,38 +226,54 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 
 
+
 **Testes de Aceitação**
+
 
 **id Lgn01 - Cliente acessa sua conta bancária com sucesso**
 
+
 **Classificação: Teste de Aceitação**
+
 
 **Por que este é um teste de aceitação?**
 
+
 **Porque valida se o cliente consegue acessar sua conta e utilizar os serviços bancários esperados, atendendo uma necessidade real do usuário.**
+
 
 **Ponto de vista adotado:**
 
+
 **Visão do cliente e do negócio, considerando a experiência e o objetivo do usuário.**
+
 
 **Tipo de validação realizada:**
 
+
 **Validação do valor entregue ao usuário através do acesso à conta.**
+
 
 
 **id Lgn02 - Cliente realiza o pagamento com sucesso**
 
 **Classificação: Teste de Aceitação**
 
+
 **Por que este é um teste de aceitação?**
+
 
 **Porque verifica se o cliente consegue realizar uma operação importante do serviço bancário e concluir seu objetivo.**
 
+
 **Ponto de vista adotado:**
+
 
 **Visão do cliente e do negócio, avaliando se o serviço atende à necessidade do usuário.**
 
+
 **Tipo de validação realizada:**
+
 
 **Validação da entrega de valor através da realização do pagamento.**
 
@@ -243,11 +283,15 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **Classificação: Teste de Aceitação**
 
+
 **Por que este é um teste de aceitação?**
+
 
 **Porque verifica se o sistema oferece uma resposta adequada ao cliente quando ele não consegue realizar o acesso por erro nas credenciais.**
 
+
 **Ponto de vista adotado:**
+
 
 **Visão do cliente, considerando a orientação e segurança durante a tentativa de acesso.**
 
@@ -264,12 +308,18 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **Por que este é um teste de aceitação?**
 
+
 **Porque valida se o cliente é impedido de realizar uma operação incompleta e recebe orientação para corrigir os dados necessários.**
+
 
 **Ponto de vista adotado:**
 
+
 **Visão do cliente e do negócio, garantindo que a operação seja realizada com segurança.**
+
 
 **Tipo de validação realizada:**
 
+
 **Validação da regra de negócio e da experiência do usuário durante uma situação alternativa.**
+
