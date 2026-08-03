@@ -304,6 +304,7 @@ O usuário realiza o login com sucesso e acessa sua conta e, em vez de visualiza
 
 **id:lgn04 - Cliente não consegue realizar pagamento sem informações obrigatórias**
 
+
 **Classificação: Teste de Aceitação**
 
 **Por que este é um teste de aceitação?**
