@@ -220,6 +220,24 @@
 
 -----------------------------------------------------------
 
+**JUSTIFICATIVAS PARA CADA TESTES**
+
+**smoker test justificativa**
+
+O teste de smoke foi realizado de acordo com a necessidade apresentada no cenário. Cada escolha nos casos foi pensada para validar as principais funcionalidades do sistema e verificar se a nova versão está apta para continuar os testes.
+
+-----------------------------------------------------------
+
+**sanity test justificativa**
+
+O teste de sanity  foi escolhido baseado no que o cenário apresenta. Cada escolha foi pensada para verificar se as funcionalidades que sofreram alterações continuam funcionando corretamente e se as correções de bugs foram aplicada com sucesso.
+
+---------------------------------------------
+
+**regression test**
+
+O teste de regressão foi escolhido porque ele garante que as alterações realizadas no sistema não afetaram funcionalidades que já existiam. Para isso, utilizei casos de testes do Smoke e do Sanity como base e criei novos cenários de regressão para verificar se o sistema continua funcionando corretamente e proporcionando uma boa experiência para o usuário
+
 
 
 
