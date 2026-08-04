@@ -2,7 +2,7 @@
 
 ***Cenário: Uma nova versão de um sistema bancário foi implantada com correção no login e um ajuste na exibição do saldo tela inicial.**
 
-### Smoker test:
+### Smoke test:
 
 **1ºCASO**
 
@@ -148,16 +148,78 @@
 
 -----------------------------------------------------------------------
 
-**test regression**
+**regression test**
 
 **1ºCASO**
 
-**ID**:
+**ID**: REG01
 
-**TÍTULO**:
+**TÍTULO**: Validação da realização de pagamento após atualização do sistema
 
-**PRÉ-CONDIÇÃO**:
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema e possui saldo suficiente
 
-**PASSOS**:
+**PASSOS**: Realiza login, acessar à área de pagamento, efetuar o pagamento e confirmar a operação
 
-**RESULTADO ESPERADO**:
+**RESULTADO ESPERADO**: O pagamento é realizado com sucesso e a confirmação é exibida ao usuário
+
+---------------------------------------------------------------------------------------------
+
+**2CASO**
+
+**ID**: REG02
+
+**TÍTULO**: Validação de realização de transfência entre contas
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado e com saldo disponível
+
+**PASSOS**: Realizar login, acessar a opção de transerência, informar uma conta válida, inserir um valor e confirmar a operação
+
+**RESULTADO ESPERADO**: A transferência é concluida com sucesso e o comprovante é exibido ao usuário
+
+-----------------------------------------------------
+
+**3CASO**
+
+**ID**: REG03
+
+**TÍTULO**: Validação da atualização do saldo após pagamento
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado e com saldo suficiente
+
+**PASSOS**: Realizar pagamento e retornar à tela inicial
+
+**RESULTADO ESPERADO**: O saldo é atualizado corretamente após a realização do pagamento
+
+----------------------------------------
+
+**4CASO**
+
+**ID**: REG04
+
+**TÍTULO**: Validação da  navegação entre as funcionalidade do sistema
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema
+
+**PASSOS**: Realizar login, acessar as telas de saldo, pagamentos, tranferências, e voltar para tela inicial
+
+**RESULTADO ESPERADO**: Todas as telas são carregadas corretamente, e permanecem funcionando
+
+-----------------------------------------
+
+**5CASO**
+
+**ID**: REG05
+
+**TÍTULO**: Validação de logout e novo login após utilização do sistema
+
+**PRÉ-CONDIÇÃO**: Usuário autenticado no sistema
+
+**PASSOS**: Realizar operações no sistema, efetuar logout e realizar um novo login com credenciais válidas.
+
+**RESULTADO ESPERADO**: O logout é realizado com sucesso e o usuário consegue acessar novamente sua conta sem apresentar erros.
+
+-----------------------------------------------------------
+
+
+
+
