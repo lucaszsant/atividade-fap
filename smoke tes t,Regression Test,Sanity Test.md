@@ -168,11 +168,11 @@
 
 **ID**: REG02
 
-**TÍTULO**: Validação de realização de transfência entre contas
+**TÍTULO**: Validação de realização de transferência entre contas
 
 **PRÉ-CONDIÇÃO**: Usuário autenticado e com saldo disponível
 
-**PASSOS**: Realizar login, acessar a opção de transerência, informar uma conta válida, inserir um valor e confirmar a operação
+**PASSOS**: Realizar login, acessar a opção de transferência, informar uma conta válida, inserir um valor e confirmar a operação
 
 **RESULTADO ESPERADO**: A transferência é concluida com sucesso e o comprovante é exibido ao usuário
 
